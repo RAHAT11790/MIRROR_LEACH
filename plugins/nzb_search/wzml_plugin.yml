@@ -1,0 +1,16 @@
+name: nzb_search
+version: "1.0.0"
+author: RS Mirror Leech Bot
+description: Search Usenet indexers through Hydra
+license: MIT
+repository: https://rsanime03.lovable.app/
+tags: [usenet, search]
+min_bot_version: "3.1.9"
+entry: nzb_search.py
+commands:
+  - name: nzbsearch
+    handler: hydra_search
+    description: "[query] Search Usenet indexers"
+    usage: "/nzbsearch <query>"
+    aliases: [ns]
+    access: authorized
