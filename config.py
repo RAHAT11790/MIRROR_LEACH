@@ -10,7 +10,7 @@
 # REQUIRED — CORE
 # ============================================================
 
-BOT_TOKEN = ""
+BOT_TOKEN = "9286027019:AAG9iK-U2mXCb3687cVhMYs2V_J_fX7xUtA"
 # Telegram -> @BotFather -> /newbot -> copy the token.
 
 OWNER_ID = 6621572366
